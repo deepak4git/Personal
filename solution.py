@@ -74,7 +74,6 @@ class BMICalculator(object):
                 else:
                     raise Exception(f"Unknown error encountered for data: {data}")
 
-            print(BMICalculator.USER_BMI_RESULT)
             return json.dumps(BMICalculator.USER_BMI_RESULT)
 
         except Exception as e:
